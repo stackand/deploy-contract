@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "gulp",
+    "isShellCommand": true,
+    "args": [
+        "--no-color"
+    ],
+    "tasks": [
+        {
+            "taskName": "deploy:contract",
+            "identifier": "deploy:contract",
+            "args": ["--contractJSON", "${relativeFile}", 
+                "--web3HttpProvider", "http://192.168.17.2:8547",
+                "--web3CoinbasePassword", "4927159"
+            ],
+            "isBuildCommand": true,
+            "isWatching": false,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "abi": "[{\"constant\":false,\"inputs\":[{\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"set\",\"outputs\":[],\"payable\":false,\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"name\":\"retVal\",\"type\":\"uint256\"}],\"payable\":false,\"type\":\"function\"}]",
+  "bytecode": "60606040523415600b57fe5b5b60978061001a6000396000f300606060405263ffffffff60e060020a60003504166360fe47b18114602a5780636d4ce63c14603c575bfe5b3415603157fe5b603a600435605b565b005b3415604357fe5b60496064565b60408051918252519081900360200190f35b60008190555b50565b6000545b905600a165627a7a72305820ea2ff3076ec51dc231129cc71ac13e1e8c301c46f27c1edaf6f7063c5cc7614e0029",
+  "functionHashes": {
+    "get()": "6d4ce63c",
+    "set(uint256)": "60fe47b1"
+  },
+  "gasEstimates": {
+    "creation": [
+      77,
+      30200
+    ],
+    "external": {
+      "get()": 251,
+      "set(uint256)": 20145
+    },
+    "internal": {}
+  },
+  "runtimeBytecode": "606060405263ffffffff60e060020a60003504166360fe47b18114602a5780636d4ce63c14603c575bfe5b3415603157fe5b603a600435605b565b005b3415604357fe5b60496064565b60408051918252519081900360200190f35b60008190555b50565b6000545b905600a165627a7a72305820ea2ff3076ec51dc231129cc71ac13e1e8c301c46f27c1edaf6f7063c5cc7614e0029",
+  "transactionHash": "0xbb329ec2a5fc3ae44571ee6556f3de1100f4bd2a920db375e77eac1d5b617a11",
+  "contractAddress": "0x1a2b0032c6a51667cde8305f44e96007c6313b64"
+}
